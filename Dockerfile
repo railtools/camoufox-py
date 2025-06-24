@@ -21,8 +21,5 @@ RUN playwright install --with-deps firefox
 # Add your project code
 COPY . .
 
-# Pre-fetch stealth models
-RUN python3 -m camoufox fetch
-
 # Command to run your script
 CMD ["python3", "main.py"]
