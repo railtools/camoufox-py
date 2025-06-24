@@ -1,0 +1,33 @@
+# Bytecode and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE settings (e.g. PyCharm, VSCode)
+.vscode/
+.idea/
+
+# Playwright + Camoufox cache
+.playwright/
+.camoufox/
+fingerprint-network.zip
+input-network.zip
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Jupyter/IPython
+.ipynb_checkpoints/
+
+# Python dependency files
+pip-wheel-metadata/
